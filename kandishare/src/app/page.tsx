@@ -1,14 +1,16 @@
 import Header from "./components/Header";
-import ShareHistoryItem from "./components/ShareHistoryItem";
-import BraceletPage from "./j/[braceletId]/page";
-
 
 export default function Home() {
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
-      <div className="mt-32">
-        {/* <ShareHistoryItem key={123} nickname="charlie" comment="hi!! I got this bracelet at beyond wonderland. good vibes" timestamp={"timestamp"}/> */}
+      <div className="h-[20vh] my-[10vh] text-center">
+        <div className="mt-12">
+          <p className="text-white text-center text-lg">
+            This bracelet is part of a project called kandishare. Every time
+            someone trades it, they can scan the code and leave a short message.
+          </p>
+        </div>
       </div>
     </div>
   );

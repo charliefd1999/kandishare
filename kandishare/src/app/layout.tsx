@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "kandishare",
   description: "A web app for connecting ravers together",
+  icons: {
+    icon: "/favicon.png",
+  },
 };
 
 export default function RootLayout({
