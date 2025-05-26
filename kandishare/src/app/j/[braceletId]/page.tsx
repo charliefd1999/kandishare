@@ -14,7 +14,7 @@ export default function BraceletPage() {
   if (!braceletId || typeof braceletId !== "string") return null;
 
   return (
-    <div>
+    <div className="bg-[#0A0A0A]">
       <Header />
       <div className="mt-[10vh] mb-4 text-center">
         <p className="text-white text-center px-6 py-4 text-lg">
